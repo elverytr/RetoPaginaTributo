@@ -39,14 +39,18 @@ body{
     color: #333333;
 }
 #tribute-info{
-    
+    width: 35%;    
+    display: inline-block; 
 }
-ul{
-    display: inline-block;
-    width: 32%;
+ul{   
     font-size: 0.85em;
     text-align: justify;
 }
 li{
     margin-top: 1em;
+}
+blockquote{
+    margin-top: 3rem;
+    text-align: justify;
+    font-size: 1.3rem;
 }
