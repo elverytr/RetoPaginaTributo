@@ -10,7 +10,7 @@ body{
 }
 #main{
     border-radius: 5px;
-    margin: 50px 5px 20px 5px; 
+    margin: 3% 1% 1% 1%; 
     font-size: 1.5rem;
     background-color: #EEEEEE;
 }
@@ -32,25 +32,25 @@ body{
 }
 #foto{
     max-width: 65%;
+    min-width: 200px;
 }
 #img-caption{
     margin: 1rem 0rem 1rem 0rem;
     font-size: 0.9em;    
     color: #333333;
 }
-#tribute-info{
-    width: 35%;    
-    display: inline-block; 
-}
-ul{   
+#tribute-info{    
     font-size: 0.85em;
+    max-width: 500px;    
+    display: inline-block;
+    padding: 0 5% 0 5%;
     text-align: justify;
-}
-li{
-    margin-top: 1em;
 }
 blockquote{
     margin-top: 3rem;
     text-align: justify;
     font-size: 1.3rem;
+}
+#img{
+    max-width: 100%;
 }
